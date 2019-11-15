@@ -1,7 +1,8 @@
 backend:
-  name: test-repo
+  name: git-gateway
+  branch: exercise-7-deploy
 
-media_folder: static/imagesx
+media_folder: static/images
 public_folder: /images
 
 collections:
