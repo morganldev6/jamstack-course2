@@ -10,6 +10,7 @@ collections:
     label: "Products"
     folder: products
     create: true
+    slug: "{{slug}}"
     fields:
       - { name: date, label: Date, widget: datetime }
       - { name: "name", label: "Name", widget: string }
