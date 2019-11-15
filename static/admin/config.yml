@@ -1,17 +1,18 @@
 backend:
   name: git-gateway
-  branch: exercise-7-deploy
+  branch: exercise-7-deploy-final
 
 media_folder: static/images
 public_folder: /images
 
 collections:
-  - name: product
+  - name: "product"
     label: "Products"
     folder: "src/pages/products"
     create: true
     slug: "{{slug}}"
     fields:
+      - { label: "Template Key", name: "templateKey", widget: "hidden", default: "product-page" }
       - { name: date, label: Date, widget: datetime }
       - { name: "name", label: "Name", widget: string }
       - { name: "body", label: "Body", widget: markdown}
