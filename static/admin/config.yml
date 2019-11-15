@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: exersise-7-deploy-final
+  branch: exercise-7-deploy
 
 media_folder: static/images
 public_folder: /images
